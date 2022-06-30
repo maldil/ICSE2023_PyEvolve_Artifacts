@@ -16,3 +16,5 @@
 | 11|2022-06-29T07:26:21Z|https://api.github.com/repos/rwth-i6/returnn/issues/1066              |closed|False |
 | 12|2022-06-29T08:27:42Z|https://api.github.com/repos/pytorch/pytorch/issues/80503             |closed|False |
 | 13|2022-06-29T08:40:34Z|https://api.github.com/repos/pandas-dev/pandas/issues/47546           |closed|False |
+| 14|2022-06-30T08:12:36Z|https://api.github.com/repos/lmcinnes/pynndescent/issues/192          |closed|False |
+| 15|2022-06-30T08:42:11Z|https://api.github.com/repos/keiffster/program-y/issues/305           |open  |False |
