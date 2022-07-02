@@ -5,7 +5,7 @@
 |--:|--------------------|----------------------------------------------------------------|------|------|
 |  1|2022-06-26T18:21:33Z|https://github.com/HazyResearch/pdftotree/pull/122              |closed|True  |
 |  2|2022-06-28T08:12:21Z|https://github.com/tensorflow/lattice/pull/73                   |closed|True  |
-|  3|2022-06-29T07:44:12Z|https://github.com/quadrismegistus/prosodic/pull/37             |open  |True  |
+|  3|2022-06-29T07:44:12Z|https://github.com/quadrismegistus/prosodic/pull/37             |closed|True  |
 |  4|2022-07-01T08:00:50Z|https://github.com/erikbern/ann-benchmarks/pull/303             |closed|True  |
 |  5|2022-06-26T01:39:01Z|https://github.com/analysiscenter/batchflow/pull/652            |closed|False |
 |  6|2022-06-26T19:55:38Z|https://github.com/brightmart/text_classification/pull/149      |open  |False |
