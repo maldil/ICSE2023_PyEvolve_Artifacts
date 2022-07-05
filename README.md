@@ -32,3 +32,8 @@
 | 27|2022-07-04T20:33:39Z|https://github.com/ray-project/ray/pull/26284                   |open  |False |
 | 28|2022-07-05T01:40:15Z|https://github.com/LCAV/pyroomacoustics/pull/271                |open  |False |
 | 29|2022-07-05T02:27:33Z|https://github.com/RaRe-Technologies/gensim/pull/3361           |open  |False |
+| 30|2022-07-05T05:41:14Z|https://github.com/pyRiemann/pyRiemann/pull/185                 |open  |False |
+| 31|2022-07-05T08:05:16Z|https://github.com/bnpy/bnpy/pull/42                            |open  |False |
+| 32|2022-07-05T08:23:56Z|https://github.com/brainiak/brainiak/pull/516                   |open  |False |
+| 33|2022-07-05T08:49:46Z|https://github.com/HCDM/BanditLib/pull/16                       |open  |False |
+| 34|2022-07-05T09:08:14Z|https://github.com/matplotlib/matplotlib/pull/23388             |open  |False |
