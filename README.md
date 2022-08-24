@@ -27,8 +27,8 @@
 | 22|2022-08-07T05:49:51Z|https://github.com/CellProfiler/CellProfiler/pull/4610          |closed|True  |
 | 23|2022-08-07T06:32:24Z|https://github.com/daniellerch/aletheia/pull/21                 |closed|True  |
 | 24|2022-08-07T06:51:40Z|https://github.com/deepinsight/insightface/pull/2070            |closed|True  |
-| 25|2022-08-06T07:12:28Z|https://github.com/scikit-image/scikit-image/pull/6458          |open  |False |
-| 26|2022-08-07T06:14:46Z|https://github.com/danforthcenter/plantcv/pull/932              |open  |False |
+| 25|2022-08-06T07:12:28Z|https://github.com/scikit-image/scikit-image/pull/6458          |open  |True  |
+| 26|2022-08-07T06:14:46Z|https://github.com/danforthcenter/plantcv/pull/932              |open  |True  |
 | 27|2022-06-27T02:46:23Z|https://github.com/Pinafore/qb/pull/107                         |open  |False |
 | 29|2022-06-29T02:33:54Z|https://github.com/tensorflow/transform/pull/280                |open  |False |
 | 30|2022-06-29T05:18:34Z|https://github.com/tensorflow/ranking/pull/325                  |open  |False |
