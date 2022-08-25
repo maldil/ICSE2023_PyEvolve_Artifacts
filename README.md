@@ -30,16 +30,16 @@
 | 25|2022-08-06T07:12:28Z|https://github.com/scikit-image/scikit-image/pull/6458          |open  |True  |
 | 26|2022-08-07T06:14:46Z|https://github.com/danforthcenter/plantcv/pull/932              |open  |True  |
 | 27|2022-06-27T02:46:23Z|https://github.com/Pinafore/qb/pull/107                         |open  |False |
-| 29|2022-06-29T02:33:54Z|https://github.com/tensorflow/transform/pull/280                |open  |False |
-| 30|2022-06-29T05:18:34Z|https://github.com/tensorflow/ranking/pull/325                  |open  |False |
-| 31|2022-07-01T01:47:41Z|https://github.com/google-research/google-research/pull/1189    |open  |False |
-| 32|2022-07-05T01:40:15Z|https://github.com/LCAV/pyroomacoustics/pull/271                |open  |False |
-| 33|2022-07-05T08:05:16Z|https://github.com/bnpy/bnpy/pull/42                            |open  |False |
-| 34|2022-07-05T08:23:56Z|https://github.com/brainiak/brainiak/pull/516                   |open  |False |
-| 35|2022-07-13T20:16:05Z|https://github.com/LxMLS/lxmls-toolkit/pull/176                 |open  |False |
-| 36|2022-08-07T00:50:05Z|https://github.com/aws/sagemaker-python-sdk/pull/3286           |open  |False |
-| 37|2022-08-07T05:56:14Z|https://github.com/cesium-ml/cesium/pull/309                    |open  |False |
-| 38|2022-06-26T22:09:38Z|https://github.com/cornellius-gp/gpytorch/pull/2049             |closed|False |
-| 39|2022-06-30T08:12:36Z|https://github.com/lmcinnes/pynndescent/pull/192                |closed|False |
-| 40|2022-07-05T05:41:14Z|https://github.com/pyRiemann/pyRiemann/pull/185                 |closed|False |
-| 30|2022-07-11T06:56:15Z|https://github.com/calico/basenji/pull/125                      |closed|False |
+| 28|2022-06-29T02:33:54Z|https://github.com/tensorflow/transform/pull/280                |open  |False |
+| 29|2022-06-29T05:18:34Z|https://github.com/tensorflow/ranking/pull/325                  |open  |False |
+| 30|2022-07-01T01:47:41Z|https://github.com/google-research/google-research/pull/1189    |open  |False |
+| 31|2022-07-05T01:40:15Z|https://github.com/LCAV/pyroomacoustics/pull/271                |open  |False |
+| 32|2022-07-05T08:05:16Z|https://github.com/bnpy/bnpy/pull/42                            |open  |False |
+| 33|2022-07-05T08:23:56Z|https://github.com/brainiak/brainiak/pull/516                   |open  |False |
+| 34|2022-07-13T20:16:05Z|https://github.com/LxMLS/lxmls-toolkit/pull/176                 |open  |False |
+| 35|2022-08-07T00:50:05Z|https://github.com/aws/sagemaker-python-sdk/pull/3286           |open  |False |
+| 36|2022-08-07T05:56:14Z|https://github.com/cesium-ml/cesium/pull/309                    |open  |False |
+| 37|2022-06-26T22:09:38Z|https://github.com/cornellius-gp/gpytorch/pull/2049             |closed|False |
+| 38|2022-06-30T08:12:36Z|https://github.com/lmcinnes/pynndescent/pull/192                |closed|False |
+| 39|2022-07-05T05:41:14Z|https://github.com/pyRiemann/pyRiemann/pull/185                 |closed|False |
+| 40|2022-07-11T06:56:15Z|https://github.com/calico/basenji/pull/125                      |closed|False |
