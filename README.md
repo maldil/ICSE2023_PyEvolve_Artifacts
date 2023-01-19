@@ -2,19 +2,21 @@
 We made all the tools and data used in the research publicly available in order to claim "Available" and "Reusable" batches. This artifact consists of the open-source versions of the tool ([PyEvolve](https://github.com/maldil/PyEvolve)) and two kinds of data sets that are used to evaluate the tool. We have readily installed tool on a VirtualBox VM image and included the evaluation subjects for the reviewer’s convenience. The tools' git repositories provide detailed instructions on building and using the tools.
 
 # About the artifact
-In Section 1, we first presented the steps to execute the tool in VirtualBox VM image which can be done in under 30 minutes. In section 2, we described our public datasets. A comprehensive explanation of building the tools and then using it on a large dataset is provided in Section 3. You could use Mac OS CLI, Windows Powershell, or Linux terminal to execute the commands. The public may access all of these resources through our primary [website](https://mlcodepatterns.github.io) or archived repositories at [Zenodo](https://zenodo.org/).
+In Section 1, we first presented the steps to execute the tool in VirtualBox VM image which can be done in under 30 minutes. In section 2, we described our public datasets. A comprehensive explanation of building the tools and then using it on a large dataset is provided in Section 3. You could use Mac OS CLI, Windows Powershell, or Linux terminal to execute the commands. The public may access all of these resources through our primary [website](https://pythoninfer.github.io) or archived repositories at [Zenodo](https://zenodo.org/).
 
 
-We release two tools
-* [Py-RefactoringMiner](https://github.com/maldil/RefactoringMiner) - a tool that mines Python refactoring in git commits of Python systems
-* [R-CPATMiner](https://github.com/maldil/R-CPATMiner) - a tool that mines fine-grained code change patterns in Python systems
+We release one tool
+* [PyEvolve](https://github.com/maldil/PyEvolve) - a tool that automatically transplants code change patterns to Python software systems 
 
-We made two types of large datasets publicly available in https://mlcodepatterns.github.io. These datasets were extracted executing above tools on 1000 [Python ML systems](https://github.com/mlcodepatterns/mlcodepatterns.github.io/blob/main/selected-repos.csv).
-* 2,062 instances of validated Python refactoring instances
-* 28K fine-grained code change patterns discovered in Python ML systems
+We made two types of large datasets available.
 
-# Tool - PyInfer
-(link will be posted soon)
+* More than 40,000 transformation trails were used to evaluate PyEvolve. This was achieved using a dataset of change patterns collected from real repositories. The dataset is publically available. 
+* PyEvolve atomatically transplanted code change patterns by submitting 40 pull requests to open source repositories. We made the list of the pull requests public.
+
+# Tool - [PyEvolve](https://github.com/maldil/PyEvolve)
+
+
+
 # Cross validation dataset 
 
 # Summary of Pull requests
