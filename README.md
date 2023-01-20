@@ -25,9 +25,10 @@ We made two types of large datasets available.
 * Link 2
 * Link 3
 
-**Step 1.3:** 
+**Step 1.3:** Import the image file using the image functionality of VirtualBox, as shown below. 
+<img src="https://github.com/maldil/ICSE2023_Artifacts/blob/main/Import1.png" width="400">
 
-
+## b. Executing PyEvolve
 
 # Cross validation dataset 
 
