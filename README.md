@@ -13,7 +13,7 @@ We release one tool
 
 We made two types of large datasets available.
 
-* More than 40,000 code transformation trails were used to evaluate PyEvolve. This was achieved using a dataset of change patterns collected from real repositories. The dataset is publically available. 
+* More than 40,000 code transformation trials were used to evaluate PyEvolve. This was achieved using a dataset of change patterns collected from real repositories. The dataset is publically available. 
 * PyEvolve atomatically transplanted code change patterns by submitting 40 pull requests to open source repositories. We made the list of the pull requests public.
 
 # Tool - [PyEvolve](https://github.com/maldil/PyEvolve)
