@@ -1,6 +1,9 @@
 # PYEVOLVE: Automating Frequent Code Changes in Python ML Systems
 We made all the tools and data used in the research publicly available in order to claim "Available" and "Reusable" batches. This artifact consists of the open-source versions of the tool ([PyEvolve](https://github.com/maldil/PyEvolve)) and two kinds of data sets that are used to evaluate the tool. We have readily installed tool on a VirtualBox VM image and included the evaluation subjects for the reviewer’s convenience. The tools' git repositories provide detailed instructions on building and using the tools.
 
+> Note: The VirtualBox VM image is a 20GB file. The time it takes to download this file is determined by your internet connection speed. Therefore, we recommend that reviewers begin downloading this file before starting the review process. Furthermore, you must have at least 30GB of free space on your computer in order to load the file into VirtualBox.
+> 
+
 # About the artifact
 In Section 1, we first presented the steps to execute the tool in VirtualBox VM image which can be done in under 30 minutes. In section 2, we described our public datasets. A comprehensive explanation of building the tools and then using it on a large dataset is provided in Section 3. You could use Mac OS CLI, Windows Powershell, or Linux terminal to execute the commands. The public may access all of these resources through our primary [website](https://pythoninfer.github.io) or archived repositories at [Zenodo](https://zenodo.org/).
 
@@ -10,10 +13,19 @@ We release one tool
 
 We made two types of large datasets available.
 
-* More than 40,000 transformation trails were used to evaluate PyEvolve. This was achieved using a dataset of change patterns collected from real repositories. The dataset is publically available. 
+* More than 40,000 code transformation trails were used to evaluate PyEvolve. This was achieved using a dataset of change patterns collected from real repositories. The dataset is publically available. 
 * PyEvolve atomatically transplanted code change patterns by submitting 40 pull requests to open source repositories. We made the list of the pull requests public.
 
 # Tool - [PyEvolve](https://github.com/maldil/PyEvolve)
+## a. Initial setup
+**Step 1.1:** If you do not already have VirtualBox installed, please use this link (https://www.virtualbox.org) and follow the instructions in the link to install VirtualBox on your computer.
+
+**Step 1.2:** We provide a VM image with all the tools installed and the data. You can download the the image from this link. The image file is 20GB in size and may take some time to download depending on your internet connection speed. We have provided a few links below with various image formats in case the first one does not work.
+* Link 1
+* Link 2
+* Link 3
+
+**Step 1.3:** 
 
 
 
