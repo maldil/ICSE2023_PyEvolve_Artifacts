@@ -1,7 +1,7 @@
 # PYEVOLVE: Automating Frequent Code Changes in Python ML Systems
 We made all the tools and data used in the research publicly available in order to claim "Available" and "Reusable" batches. This artifact consists of the open-source versions of the tool ([PyEvolve](https://github.com/maldil/PyEvolve)) and two kinds of data sets that are used to evaluate the tool. We have readily installed tool on a VirtualBox VM image and included the evaluation subjects for the reviewer’s convenience. The git repositories of the tools contain detailed instructions for building and using the tools, allowing the public to reuse them.
 
-> Note: The VirtualBox VM image is a 20GB file. The time it takes to download this file is determined by the internet connection speed. Therefore, we would like to kindly request that reviewers begin downloading this file prior to beginning the review process. Furthermore, reviwers must have at least 30GB of free space on their computer in order to load the file into VirtualBox.
+> Note: The VirtualBox VM image is a 30GB file. The time it takes to download this file is determined by the internet connection speed. Therefore, we would like to kindly request that reviewers begin downloading this file prior to beginning the review process. Furthermore, reviwers must have at least 30GB of free space on their computer in order to load the file into VirtualBox.
 
 
 # About the artifact
@@ -29,6 +29,9 @@ We made two types of large datasets available.
 <img src="https://github.com/maldil/ICSE2023_Artifacts/blob/main/Import1.png" width="400">
 
 ### b. Executing PyEvolve
+Under the evaluation, we demostrate transplantation of two diffrent patterns to the project `keras`. These changes were submited to the project `keras` and was accepted throught this pull request (https://github.com/keras-team/keras/pull/16874). 
+
+**Step 1.1:** Open the teminal application in the virtual machine and Navigate to the folder ~/ using the command `cd  `.  
 
 # Cross validation dataset 
 PyEvolve was evaluated using the corss validation dataset. This data set contains frequent code changes made in open source Python projects. We evaluated PyEvolve with over 40,000 transformation trials. To provide easy access to data, we released [data]( https://github.com/pythonInfer/pythoninfer.github.io/blob/main/CrossValidationICSE2023.xlsx) on a website hosted on GitHub, as described above. We have, however, archived all tools and data in accordance with ICSE 2023 Open Science Policies.
