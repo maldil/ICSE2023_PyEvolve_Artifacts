@@ -1,7 +1,7 @@
 # PYEVOLVE: Automating Frequent Code Changes in Python ML Systems
 We made all the tools and data used in the research publicly available in order to claim "Available" and "Reusable" batches. This artifact consists of the open-source versions of the tool ([PyEvolve](https://github.com/maldil/PyEvolve)) and two kinds of data sets that are used to evaluate the tool. We have readily installed tool on a VirtualBox VM image and included the evaluation subjects for the reviewer’s convenience. The git repositories of the tools contain detailed instructions for building and using the tools, allowing the public to reuse them.
 
-> Note: The VirtualBox VM image is a 19GB file. The time it takes to download this file is determined by the internet connection speed. Therefore, we would like to kindly request that reviewers begin downloading this file prior to beginning the review process. Furthermore, reviwers must have at least 30GB of free space on their computer in order to load the file into VirtualBox.
+> Note: The VirtualBox VM image is a 19GB file. The time it takes to download this file is determined by the internet connection speed. Therefore, we would like to kindly request that reviewers begin downloading this file prior to beginning the review process. Furthermore, reviwers must have at least 30GB of free space on their computer in order to load the file into VirtualBox. 
 
 
 # About the artifact
@@ -25,7 +25,7 @@ We made two types of large datasets available.
 * Link 2
 * Link 3
 
-**Step 1.3:** Open VirtualBox. Click on the tools tab and then import the downloaded image file (`pyevolve.ova`) to VirtualBox, as shown below. 
+**Step 1.3:** Open VirtualBox. Click on the tools tab and then import the downloaded image file (`pyevolve.ova`) to VirtualBox, as shown below. For the image to be loaded into VirtualBox, you might need at least 30GB of free space. If not, you are likely to experience an error with the error code `NS ERROR_INVALID_ARG`.
 
 <img src="https://github.com/maldil/ICSE2023_PyEvolve_Artifacts/blob/main/Import1.png" width="400">
 
