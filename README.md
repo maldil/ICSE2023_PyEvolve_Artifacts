@@ -40,8 +40,8 @@ https://user-images.githubusercontent.com/20140049/213983265-3ddb4eed-ebdc-4192-
 
 **Step 1.5:** Start the virtual machine by pressing the "Start" button at the top of the window.
 
-**Step 1.6:** The virtual machine should ideally start now. However, sometimes it may enter into a shell prompt. 
-FS
+**Step 1.6:** The virtual machine should ideally start now. However, sometimes it may enter into a shell prompt as shown below. 
+
 <img width="400" alt="Screen Shot 2023-01-22 at 11 36 41 PM" src="https://user-images.githubusercontent.com/20140049/213987438-92b6e9db-c72d-4b3e-8c2a-72b0c5205921.png">
 
 If this is the case, you will need to manually run the following two commands one after the other.
@@ -64,7 +64,28 @@ You have successfully configured all the necessary setup for executing PyEvolve.
 ### b. Executing PyEvolve
 Under the evaluation, we demostrate transplantation of two diffrent patterns to the project `keras`. These changes were submited to the project `keras` and was accepted throught this pull request (https://github.com/keras-team/keras/pull/16874). 
 
-**Step 1.1:** Open the teminal application in the virtual machine and Navigate to the folder ~/ using the command `cd  `.  
+**Step 1.1:** Open the teminal application in the virtual machine and Navigate to the folder `PYEVOLVE_FILES` using the command `cd  ~/Desktop/PYEVOLVE_FILES`. 
+
+**Step 1.2:** Open the teminal application in the virtual machine and Navigate to the folder `PYEVOLVE_FILES` using the command `cd  ~/Desktop/PYEVOLVE_FILES`.  
+
+**Step 1.3:** Execute `ls` to view the PyEvolve executable `pyevolve-1.0-SNAPSHOT.jar` and other data.
+
+*For your convenience, we have included all the commands needed in the following steps in the file ~/Desktop/commands.txt, so that you do not have to type the long commands.*
+
+**Step 1.4:** You can use the command `java --enable-preview -jar pyevolve-1.0-SNAPSHOT.jar` to view all the required input arguments to successfully run the tool.
+
+**Step 1.5:** To clone the project `keras` to the folder `~/Desktop/PYEVOLVE_FILES/PROJECTS/keras-team/` please execute following commands.
+* Navigate to the `cd ~/Desktop/PYEVOLVE_FILES/PROJECTS/keras-team/` 
+* To clone `git clone https://github.com/keras-team/keras.git ./keras/`
+* To retrieve the previous snapshot, before merging the pull request, execute `git checkout f49e66c72ea5fe337c5292ee42f61cd75bc74727`.
+
+**Step 1.5:** To apply the patterns in the folder `./PATTERNS/` execute the following command
+
+`java --enable-preview -jar pyevolve-1.0-SNAPSHOT.jar -r ./PROJECTS/ -f ./refactoring_files.txt -p ./PATTERNS/ -t ./TYPE_REPO/`
+
+**Step 1.5:** To check the changed files, navigate to the folder `~/Desktop/PYEVOLVE_FILES/PROJECTS/keras-team/keras` execute `git diff`, scroll down to see all the changes. 
+
+**You have successfully executed PyEvolve and transplanted patterns to the Keras project.** 
 
 # Cross validation dataset 
 PyEvolve was evaluated using the corss validation dataset. This data set contains frequent code changes made in open source Python projects. We evaluated PyEvolve with over 40,000 transformation trials. To provide easy access to data, we released [data]( https://github.com/pythonInfer/pythoninfer.github.io/blob/main/CrossValidationICSE2023.xlsx) on a website hosted on GitHub, as described above. We have, however, archived all tools and data in accordance with ICSE 2023 Open Science Policies.
