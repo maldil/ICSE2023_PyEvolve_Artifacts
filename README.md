@@ -44,13 +44,22 @@ https://user-images.githubusercontent.com/20140049/213983265-3ddb4eed-ebdc-4192-
 FS
 <img width="400" alt="Screen Shot 2023-01-22 at 11 36 41 PM" src="https://user-images.githubusercontent.com/20140049/213987438-92b6e9db-c72d-4b3e-8c2a-72b0c5205921.png">
 
-If this is the case, you have to manually run the following two commands one after another
+If this is the case, you will need to manually run the following two commands one after the other.
 * `FSE:`
 * `System\Library\CoreServices\boot.efi`
 
+The following video illustrates the steps described above.
+
+
+https://user-images.githubusercontent.com/20140049/213990697-a4a2a02d-cc23-4ba4-ba4f-87ca76a01842.mov
 
 
 
+**Step 1.7:** The above step may take several minutes to start the machine, and you should see the startup screen as shown below. Use the password `abc@123` to log in to the machine. Once logged in, you will find a folder named `PYEVOLVE_FILES` which contains the executables, source code, and data for PyEvolve.
+
+<img width="400" alt="startup" src="https://user-images.githubusercontent.com/20140049/213992302-eec06474-acf9-4f26-8655-d0012c5de9c2.png">
+
+You have successfully configured all the necessary setup for executing PyEvolve.
 
 ### b. Executing PyEvolve
 Under the evaluation, we demostrate transplantation of two diffrent patterns to the project `keras`. These changes were submited to the project `keras` and was accepted throught this pull request (https://github.com/keras-team/keras/pull/16874). 
