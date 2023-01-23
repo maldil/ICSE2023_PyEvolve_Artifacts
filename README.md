@@ -5,7 +5,7 @@ We made all the tools and data used in the research publicly available in order 
 
 
 # About the artifact
-In Section 1, we first presented the steps to execute the tool in VirtualBox VM image which can be done in under 30 minutes. In section 2, we described our public datasets. A comprehensive explanation of building the tools and then using it on a large dataset is provided in Section 3. The public may access all of these resources through our primary [website](https://pythoninfer.github.io) or archived repositories at [Zenodo](https://zenodo.org/).
+In Section 1, we first presented the steps to execute the tool in VirtualBox VM image which can be done in under 30 minutes. In section 2, we described our public datasets. The public may access all of these resources through our primary [website](https://pythoninfer.github.io) or archived repositories at [Zenodo](https://zenodo.org/).
 
 
 We release one tool
@@ -148,3 +148,5 @@ PyEvolve was evaluated using the corss validation dataset. This data set contain
 | 38|2022-06-30T08:12:36Z|https://github.com/lmcinnes/pynndescent/pull/192                |closed|False |
 | 39|2022-07-05T05:41:14Z|https://github.com/pyRiemann/pyRiemann/pull/185                 |closed|False |
 | 40|2022-07-11T06:56:15Z|https://github.com/calico/basenji/pull/125                      |closed|False |
+
+
