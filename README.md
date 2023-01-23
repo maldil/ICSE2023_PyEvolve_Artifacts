@@ -25,8 +25,32 @@ We made two types of large datasets available.
 * Link 2
 * Link 3
 
-**Step 1.3:** Import the image file using the image functionality of VirtualBox, as shown below. 
-<img src="https://github.com/maldil/ICSE2023_Artifacts/blob/main/Import1.png" width="400">
+**Step 1.3:** Click on the tools tab and then import the downloaded image file (`pyevolve.ova`) to VirtualBox, as shown below. 
+<img src="https://github.com/maldil/ICSE2023_PyEvolve_Artifacts/blob/main/Import1.png" width="400">
+
+You will be taken to the window shown below, where the settings should appear as depicted. Click the 'Import' button, as indicated in the image. This may take a few minutes to import the image into VirtualBox.
+
+<img src="https://github.com/maldil/ICSE2023_PyEvolve_Artifacts/blob/main/import2.png" width="400">
+
+**Step 1.4:** To set up the configurations successfully, you need to disable the USB port of the virtual machine. To do this, follow the steps outlined in the following image. If this is not done properly, you will receive an error with the error code `NS_ERROR_FAILURE`.
+
+https://user-images.githubusercontent.com/20140049/213983265-3ddb4eed-ebdc-4192-8da7-ae8c49176234.mov
+
+
+
+**Step 1.5:** Start the virtual machine by pressing the "Start" button at the top of the window.
+
+**Step 1.6:** The virtual machine should ideally start now. However, sometimes it may enter into a shell prompt. 
+FS
+<img width="400" alt="Screen Shot 2023-01-22 at 11 36 41 PM" src="https://user-images.githubusercontent.com/20140049/213987438-92b6e9db-c72d-4b3e-8c2a-72b0c5205921.png">
+
+If this is the case, you have to manually run the following two commands one after another
+* `FSE:`
+* `System\Library\CoreServices\boot.efi`
+
+
+
+
 
 ### b. Executing PyEvolve
 Under the evaluation, we demostrate transplantation of two diffrent patterns to the project `keras`. These changes were submited to the project `keras` and was accepted throught this pull request (https://github.com/keras-team/keras/pull/16874). 
