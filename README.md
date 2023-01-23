@@ -25,7 +25,7 @@ We made two types of large datasets available.
 * Link 2
 * Link 3
 
-**Step 1.3:** Click on the tools tab and then import the downloaded image file (`pyevolve.ova`) to VirtualBox, as shown below. 
+**Step 1.3:** Open VirtualBox. Click on the tools tab and then import the downloaded image file (`pyevolve.ova`) to VirtualBox, as shown below. 
 <img src="https://github.com/maldil/ICSE2023_PyEvolve_Artifacts/blob/main/Import1.png" width="400">
 
 You will be taken to the window shown below, where the settings should appear as depicted. Click the 'Import' button, as indicated in the image. This may take a few minutes to import the image into VirtualBox.
