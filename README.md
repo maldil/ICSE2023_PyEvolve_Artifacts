@@ -26,13 +26,14 @@ We made two types of large datasets available.
 * Link 3
 
 **Step 1.3:** Open VirtualBox. Click on the tools tab and then import the downloaded image file (`pyevolve.ova`) to VirtualBox, as shown below. 
+
 <img src="https://github.com/maldil/ICSE2023_PyEvolve_Artifacts/blob/main/Import1.png" width="400">
 
 You will be taken to the window shown below, where the settings should appear as depicted. Click the 'Import' button, as indicated in the image. This may take a few minutes to import the image into VirtualBox.
 
 <img src="https://github.com/maldil/ICSE2023_PyEvolve_Artifacts/blob/main/import2.png" width="400">
 
-**Step 1.4:** To set up the configurations successfully, you need to disable the USB port of the virtual machine. To do this, follow the steps outlined in the following image. If this is not done properly, you will receive an error with the error code `NS_ERROR_FAILURE`.
+**Step 1.4:** To set up the configurations successfully, you need to disable the USB port of the virtual machine. To do this, follow the steps outlined in the following image. If this is not done properly, you will receive an error  in the step **Step 1.5** with the error code `NS_ERROR_FAILURE`.
 
 https://user-images.githubusercontent.com/20140049/213983265-3ddb4eed-ebdc-4192-8da7-ae8c49176234.mov
 
