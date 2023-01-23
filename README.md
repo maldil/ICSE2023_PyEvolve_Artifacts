@@ -74,6 +74,14 @@ Under the evaluation, we demostrate transplantation of two diffrent patterns to 
 *For your convenience, we have included all the commands needed in the following steps in the file `~/Desktop/commands.txt`, so that you do not have to type the long commands.*
 
 **Step 2.4:** You can use the command `java --enable-preview -jar pyevolve-1.0-SNAPSHOT.jar` to view all the required input arguments to successfully run the tool.
+Below are the arguments
+
+* `-p,--patterns`    This folder contains code change patterns with two types of filenames: those that begin with 'l_', and those that begin with 'r_'. These prefixes indicate the rule of a code change before and after. It is essential that the names following the prefixes are the same for the tool to correctly identify the files that belong to the same change.
+* `-r,--repositories`  The path to the project repository where the code change must be transplanted. This folder houses all of the projects.
+*  `-f,--files`        This file contains the project files that must be reviewed and modified. The paths has to be a relative path to the folder indicated by the argument `-r`.
+* `-t,--types`       This folder holds the "type" information of the program elements of the projects found in the project repository (-r). This information needs to be inferred and stored in this folder before running the "PyEvolve". Instructions for inferring type information can be found in this repository: https://github.com/mlcodepatterns/PythonTypeInformation. For your convenience, the type information has already been included in the VirtualBox Image.
+
+
 
 **Step 2.5:** To clone the project `keras` to the folder `~/Desktop/PYEVOLVE_FILES/PROJECTS/keras-team/` please execute following commands.
 * Navigate to the `cd ~/Desktop/PYEVOLVE_FILES/PROJECTS/keras-team/` 
