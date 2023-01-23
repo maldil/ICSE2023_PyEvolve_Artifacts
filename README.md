@@ -21,7 +21,7 @@ We made two types of large datasets available.
 **Step 1.1:** If you do not already have VirtualBox installed, please use this link (https://www.virtualbox.org) and follow the instructions in the link to install VirtualBox on your computer.
 
 **Step 1.2:** We provide a VM image with all the tools installed and the data. You can download the the image from this link. The image file is 20GB in size and may take some time to download depending on your internet connection speed. We have provided a few links below with various image formats in case the first one does not work.
-* Link 1
+* [Link 1](https://drive.google.com/drive/folders/1X3zqSKwOnVuLm-qeAELszcEw6gYb9flX?usp=sharing)
 * Link 2
 * Link 3
 
@@ -64,26 +64,26 @@ You have successfully configured all the necessary setup for executing PyEvolve.
 ### b. Executing PyEvolve
 Under the evaluation, we demostrate transplantation of two diffrent patterns to the project `keras`. These changes were submited to the project `keras` and was accepted throught this pull request (https://github.com/keras-team/keras/pull/16874). 
 
-**Step 1.1:** Open the teminal application in the virtual machine and Navigate to the folder `PYEVOLVE_FILES` using the command `cd  ~/Desktop/PYEVOLVE_FILES`. 
+**Step 2.1:** Open the teminal application in the virtual machine and Navigate to the folder `PYEVOLVE_FILES` using the command `cd  ~/Desktop/PYEVOLVE_FILES`. 
 
-**Step 1.2:** Open the teminal application in the virtual machine and Navigate to the folder `PYEVOLVE_FILES` using the command `cd  ~/Desktop/PYEVOLVE_FILES`.  
+**Step 2.2:** Open the teminal application in the virtual machine and Navigate to the folder `PYEVOLVE_FILES` using the command `cd  ~/Desktop/PYEVOLVE_FILES`.  
 
-**Step 1.3:** Execute `ls` to view the PyEvolve executable `pyevolve-1.0-SNAPSHOT.jar` and other data.
+**Step 2.3:** Execute `ls` to view the PyEvolve executable `pyevolve-1.0-SNAPSHOT.jar` and other data.
 
 *For your convenience, we have included all the commands needed in the following steps in the file ~/Desktop/commands.txt, so that you do not have to type the long commands.*
 
-**Step 1.4:** You can use the command `java --enable-preview -jar pyevolve-1.0-SNAPSHOT.jar` to view all the required input arguments to successfully run the tool.
+**Step 2.4:** You can use the command `java --enable-preview -jar pyevolve-1.0-SNAPSHOT.jar` to view all the required input arguments to successfully run the tool.
 
-**Step 1.5:** To clone the project `keras` to the folder `~/Desktop/PYEVOLVE_FILES/PROJECTS/keras-team/` please execute following commands.
+**Step 2.5:** To clone the project `keras` to the folder `~/Desktop/PYEVOLVE_FILES/PROJECTS/keras-team/` please execute following commands.
 * Navigate to the `cd ~/Desktop/PYEVOLVE_FILES/PROJECTS/keras-team/` 
 * To clone `git clone https://github.com/keras-team/keras.git ./keras/`
 * To retrieve the previous snapshot, before merging the pull request, execute `git checkout f49e66c72ea5fe337c5292ee42f61cd75bc74727`.
 
-**Step 1.5:** To apply the patterns in the folder `./PATTERNS/` execute the following command
+**Step 2.6:** To apply the patterns in the folder `./PATTERNS/` execute the following command
 
 `java --enable-preview -jar pyevolve-1.0-SNAPSHOT.jar -r ./PROJECTS/ -f ./refactoring_files.txt -p ./PATTERNS/ -t ./TYPE_REPO/`
 
-**Step 1.5:** To check the changed files, navigate to the folder `~/Desktop/PYEVOLVE_FILES/PROJECTS/keras-team/keras` execute `git diff`, scroll down to see all the changes. 
+**Step 2.7:** To check the changed files, navigate to the folder `~/Desktop/PYEVOLVE_FILES/PROJECTS/keras-team/keras` execute `git diff`, scroll down to see all the changes. 
 
 **You have successfully executed PyEvolve and transplanted patterns to the Keras project.** 
 
