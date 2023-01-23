@@ -74,7 +74,7 @@ Under the evaluation, we demostrate transplantation of two diffrent patterns to 
 *For your convenience, we have included all the commands needed in the following steps in the file `~/Desktop/commands.txt`, so that you do not have to type the long commands.*
 
 **Step 2.4:** You can use the command `java --enable-preview -jar pyevolve-1.0-SNAPSHOT.jar` to view all the required input arguments to successfully run the tool.
-Below are the arguments
+Below are the arguments for your knowledge (you do not have any action to perform). 
 
 * `-p,--patterns`    This folder contains code change patterns with two types of filenames: those that begin with 'l_', and those that begin with 'r_'. These prefixes indicate the rule of a code change before and after. It is essential that the names following the prefixes are the same for the tool to correctly identify the files that belong to the same change.
 * `-r,--repositories`  The path to the project repository where the code change must be transplanted. This folder houses all of the projects.
@@ -88,7 +88,7 @@ Below are the arguments
 * To clone `git clone https://github.com/keras-team/keras.git ./keras/`
 * To retrieve the previous snapshot, before merging the pull request, execute `git checkout f49e66c72ea5fe337c5292ee42f61cd75bc74727`.
 
-**Step 2.6:** To apply the patterns in the folder `./PATTERNS/` execute the following command
+**Step 2.6:** To apply the patterns in the folder `./PATTERNS/` execute the following command. The argument descriptions are provided in the **Step 2.4:**.
 
 `java --enable-preview -jar pyevolve-1.0-SNAPSHOT.jar -r ./PROJECTS/ -f ./refactoring_files.txt -p ./PATTERNS/ -t ./TYPE_REPO/`
 
