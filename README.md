@@ -70,7 +70,7 @@ Under the evaluation, we demostrate transplantation of two diffrent patterns to 
 
 **Step 2.3:** Execute `ls` to view the PyEvolve executable `pyevolve-1.0-SNAPSHOT.jar` and other data.
 
-*For your convenience, we have included all the commands needed in the following steps in the file ~/Desktop/commands.txt, so that you do not have to type the long commands.*
+*For your convenience, we have included all the commands needed in the following steps in the file `~/Desktop/commands.txt`, so that you do not have to type the long commands.*
 
 **Step 2.4:** You can use the command `java --enable-preview -jar pyevolve-1.0-SNAPSHOT.jar` to view all the required input arguments to successfully run the tool.
 
