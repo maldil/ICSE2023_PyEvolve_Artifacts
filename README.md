@@ -1,7 +1,7 @@
 # PYEVOLVE: Automating Frequent Code Changes in Python ML Systems
 We made all the tools and data used in the research publicly available in order to claim "Available" and "Reusable" batches. This artifact consists of the open-source versions of the tool ([PyEvolve](https://github.com/maldil/PyEvolve)) and two kinds of data sets that are used to evaluate the tool. We have readily installed tool on a VirtualBox VM image and included the evaluation subjects for the reviewer’s convenience. The git repositories of the tools contain detailed instructions for building and using the tools, allowing the public to reuse them.
 
-> Note: The VirtualBox VM image is a 30GB file. The time it takes to download this file is determined by the internet connection speed. Therefore, we would like to kindly request that reviewers begin downloading this file prior to beginning the review process. Furthermore, reviwers must have at least 30GB of free space on their computer in order to load the file into VirtualBox.
+> Note: The VirtualBox VM image is a 19GB file. The time it takes to download this file is determined by the internet connection speed. Therefore, we would like to kindly request that reviewers begin downloading this file prior to beginning the review process. Furthermore, reviwers must have at least 30GB of free space on their computer in order to load the file into VirtualBox.
 
 
 # About the artifact
@@ -20,7 +20,7 @@ We made two types of large datasets available.
 ### a. Initial setup
 **Step 1.1:** If you do not already have VirtualBox installed, please use this link (https://www.virtualbox.org) and follow the instructions in the link to install VirtualBox on your computer.
 
-**Step 1.2:** We provide a VM image with all the tools installed and the data. You can download the the image from this link. The image file is 20GB in size and may take some time to download depending on your internet connection speed. We have provided a few links below with various image formats in case the first one does not work.
+**Step 1.2:** We provide a VM image with all the tools installed and the data. You can download the the image from this link. The image file is 19GB in size and may take some time to download depending on your internet connection speed. We have provided a few links below with various image formats in case the first one does not work. You can get the image by clicking on one of the links provided below.
 * [Link 1](https://drive.google.com/drive/folders/1X3zqSKwOnVuLm-qeAELszcEw6gYb9flX?usp=sharing)
 * Link 2
 * Link 3
