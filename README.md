@@ -5,7 +5,7 @@ We made all the tools and data used in the research publicly available in order 
 
 
 # About the artifact
-In Section 1, we first presented the steps to execute the tool in VirtualBox VM image which can be done in under 30 minutes. In section 2, we described our public datasets. The public may access all of these resources through our primary [website](https://pythoninfer.github.io) or archived repositories at [Zenodo](https://zenodo.org/).
+In Section 1, we first presented the steps to execute the tool in VirtualBox VM image which can be done in under 30 minutes. In section 2, we described our public datasets. The public may access all of these resources through our primary [website](https://pythoninfer.github.io) or archived repositories at ([Zenodo](https://zenodo.org/record/7566407#.Y9At3C1h2cY)).
 
 
 We release one tool
@@ -101,7 +101,7 @@ We have made available two distinct types of large datasets. To evaluate PyEvolv
 
 ## Cross validation dataset 
 PyEvolve was evaluated using the corss validation dataset. This data set contains frequent code changes made in open source Python projects. We evaluated PyEvolve with over 40,000 transformation trials. To provide easy access to data, we released [data]( https://github.com/pythonInfer/pythoninfer.github.io/blob/main/CrossValidationICSE2023.xlsx) on a website hosted on GitHub, as described above. We have, however, archived all tools and data in accordance with ICSE 2023 Open Science Policies.
-* Zendo link for cross validation dataset : https://zenodo.org/record/5889285#.YessCy1h2cY
+* Zendo link for cross validation dataset : https://zenodo.org/record/7566407#.Y9At3C1h2cY
 
 
 
