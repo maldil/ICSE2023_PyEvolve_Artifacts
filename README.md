@@ -5,7 +5,7 @@ We made all the tools and data used in the research publicly available in order 
 
 
 # About the artifact
-In Section 1, we first presented the steps to execute the tool in VirtualBox VM image which can be done in under 30 minutes. In section 2, we described our public datasets. The public may access all of these resources through our primary [website](https://pythoninfer.github.io) or archived repositories at ([Zenodo](https://zenodo.org/record/7566407#.Y9At3C1h2cY)).
+In Section 1, we first presented the steps to execute the tool in VirtualBox VM image which can be done in under 30 minutes. In section 2, we described our public datasets. The public may access all of these resources (tool and data) through our primary [website](https://pythoninfer.github.io) or archived repositories at ([Zenodo](https://zenodo.org/record/7566407#.Y9At3C1h2cY)).
 
 
 We release one tool
