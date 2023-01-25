@@ -62,7 +62,7 @@ https://user-images.githubusercontent.com/20140049/213990697-a4a2a02d-cc23-4ba4-
 You have successfully configured all the necessary setup for executing PyEvolve.
 
 ### b. Executing PyEvolve
-Under the evaluation, we demostrate transplantation of two diffrent patterns to the project `keras`. These changes were submited to the project `keras` and was accepted throught this pull request (https://github.com/keras-team/keras/pull/16874). 
+Under the evaluation, we demostrate transplantation of a patterns to the project `keras`. These changes were submited to the project `keras` and was accepted throught this pull request (https://github.com/keras-team/keras/pull/16874). 
 
 **Step 2.1:** Open the teminal application in the virtual machine and Navigate to the folder `PYEVOLVE_FILES` using the command `cd  ~/Desktop/PYEVOLVE_FILES`. 
 
