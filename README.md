@@ -38,7 +38,6 @@ You will be taken to the window shown below, where the settings should appear as
 https://user-images.githubusercontent.com/20140049/213983265-3ddb4eed-ebdc-4192-8da7-ae8c49176234.mov
 
 
-
 **Step 1.5:** Start the virtual machine by pressing the "Start" button at the top of the window.
 
 **Step 1.6:** The virtual machine should ideally start now. However, sometimes it may enter into a shell prompt as shown below. 
@@ -76,7 +75,7 @@ Under the evaluation, we demostrate transplantation of two diffrent patterns to 
 **Step 2.4:** You can use the command `java --enable-preview -jar pyevolve-1.0-SNAPSHOT.jar` to view all the required input arguments to successfully run the tool.
 Below are the arguments for your knowledge (you do not have any action to perform). 
 
-* `-p,--patterns`    This folder contains code change patterns with two types of filenames: those that begin with 'l_', and those that begin with 'r_'. These prefixes indicate the rule of a code change before and after. It is essential that the names following the prefixes are the same for the tool to correctly identify the files that belong to the same change.
+* `-p,--patterns`    This folder contains code change patterns with two types of filenames: those that begin with 'l_', and those that begin with 'r_'. These prefixes indicate the rule of a code change before and after. It is essential that the names following the prefixes are the same for the tool to correctly identify the files that belong to the same change. For example, you can check the folder `~/Desktop/PYEVOLVE_FILES/PATTERNS/` which contains patterns that we are planning to use in this evaluation.  
 * `-r,--repositories`  The path to the project repository where the code change must be transplanted. This folder houses all of the projects.
 *  `-f,--files`        This file contains the project files that must be reviewed and modified. The paths has to be a relative path to the folder indicated by the argument `-r`.
 * `-t,--types`       This folder holds the "type" information of the program elements of the projects found in the project repository (-r). This information needs to be inferred and stored in this folder before running the "PyEvolve". Instructions for inferring type information can be found in this repository: https://github.com/mlcodepatterns/PythonTypeInformation. For your convenience, the type information has already been included in the VirtualBox Image.
@@ -90,7 +89,9 @@ Below are the arguments for your knowledge (you do not have any action to perfor
 
 **Step 2.6:** To apply the patterns in the folder `./PATTERNS/` execute the following command. The argument descriptions are provided in the *Step 2.4*.
 
-`java --enable-preview -jar pyevolve-1.0-SNAPSHOT.jar -r ./PROJECTS/ -f ./refactoring_files.txt -p ./PATTERNS/ -t ./TYPE_REPO/`
+* You should first navigate to the folder `PYEVOLVE_FILES` using the command `cd ~/Desktop/PYEVOLVE_FILES/`
+* To apply patterns execute `java --enable-preview -jar pyevolve-1.0-SNAPSHOT.jar -r ./PROJECTS/ -f ./refactoring_files.txt -p ./PATTERNS/ -t ./TYPE_REPO/`
+
 
 **Step 2.7:** To check the changed files, navigate to the folder `~/Desktop/PYEVOLVE_FILES/PROJECTS/keras-team/keras` execute `git diff`, scroll down to see all the changes. 
 
