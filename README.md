@@ -92,6 +92,7 @@ Below are the arguments for your knowledge (you do not have any action to perfor
 * You should first navigate to the folder `PYEVOLVE_FILES` using the command `cd ~/Desktop/PYEVOLVE_FILES/`
 * To apply patterns execute `java --enable-preview -jar pyevolve-1.0-SNAPSHOT.jar -r ./PROJECTS/ -f ./refactoring_files.txt -p ./PATTERNS/ -t ./TYPE_REPO/`
 
+The above command executes the main function of Pyevolve given in this [link](https://github.com/maldil/PyEvolve/blob/d24e28a2c95c9484f5ea5de215e359a04582d045/src/main/java/com/MainAdaptor.java#L30) and makes the code changes for the project included in the folder `~/Desktop/PYEVOLVE_FILES/PROJECTS/`.
 
 **Step 2.7:** To check the changed files, navigate to the folder `~/Desktop/PYEVOLVE_FILES/PROJECTS/keras-team/keras` execute `git diff`, scroll down to see all the changes. 
 
