@@ -54,8 +54,7 @@ If this is the case, you will need to manually run the following two commands on
 The following video illustrates the steps described above.
 
 
-https://user-images.githubusercontent.com/20140049/213990697-a4a2a02d-cc23-4ba4-ba4f-87ca76a01842.mov
-
+https://user-images.githubusercontent.com/20140049/214788226-e08bc953-8d6f-4c41-976a-648cf12e8969.mov
 
 
 **Step 1.7:** The above step may take several minutes to start the machine, and you should see the startup screen as shown below. Use the password `abc@123` to log in to the machine. Once logged in, you will find a folder named `PYEVOLVE_FILES` which contains the executables, source code, and data for PyEvolve.
