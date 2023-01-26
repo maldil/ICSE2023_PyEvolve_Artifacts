@@ -20,7 +20,7 @@ We made two types of large datasets available.
 ### a. Initial setup
 **Step 1.1:** If you do not already have VirtualBox installed, please use this link (https://www.virtualbox.org) and follow the instructions in the link to install VirtualBox on your computer.
 
-**Step 1.2:** We offer a VM image with all the tools and data pre-installed. The image (named `pyevolve.ova`) can be downloaded from the links provided below. The image file is 19GB in size and may take some time to download depending on your internet connection speed. We have provided a few links below with various image formats in case the first one does not work. You can get the image by clicking on one of the links provided below.
+**Step 1.2:** We offer a VM image with all the tools and data pre-installed. The image (named `pyevolve.ova`) can be downloaded from the links provided below. The image file is 19GB in size and may take some time to download depending on your internet connection speed. We have provided a few links below in case the first one does not work. You can get the image by clicking on one of the links provided below.
 * [Link 1](https://drive.google.com/drive/folders/1X3zqSKwOnVuLm-qeAELszcEw6gYb9flX?usp=sharing)
 * Link 2
 * Link 3
