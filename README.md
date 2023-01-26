@@ -3,7 +3,7 @@ We made all the tools and data used in the research publicly available in order 
 
 > Note 1: The VirtualBox VM image is a 19GB file. The time it takes to download this file is determined by the internet connection speed. Therefore, we would like to kindly request that reviewers begin downloading this file prior to beginning the review process. Furthermore, reviwers must have at least 30GB of free space on their computer in order to load the file into VirtualBox. 
 
-> Note 2:  We have generated a VirtualBox image on a Mac computer with an Intel chip. The evaluation process heavily relies on the ability to load and run the virtual machine, which may pose challenges as VirtualBox is known to have specific issues with certain operating systems. To mitigate this, we recomend the reviewr to have Mac computer with Intel chip. 
+> Note 2:  We have generated a VirtualBox image on a Mac computer with an Intel chip. The evaluation process heavily relies on the ability to load and run the virtual machine, which may pose challenges as VirtualBox is known to have specific compatibilty issues with certain operating systems. To mitigate this, we recomend the reviewr to have Mac computer with Intel chip. 
 
 > Note 3: We tested the compatibility of the VM image and evaluation instructions on a different machine (Mac-Intel chip), not the one used for creating the image, in order to ensure that all steps will run without interruption. 
 
