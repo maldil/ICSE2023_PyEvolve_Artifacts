@@ -66,15 +66,13 @@ You have successfully configured all the necessary setup for executing PyEvolve.
 ### b. Executing PyEvolve
 Under the evaluation, we demostrate transplantation of a patterns to the project `keras`. These changes were submited to the project `keras` and was accepted throught this pull request (https://github.com/keras-team/keras/pull/16874). 
 
-**Step 2.1:** Open the teminal application in the virtual machine and Navigate to the folder `PYEVOLVE_FILES` using the command `cd  ~/Desktop/PYEVOLVE_FILES`. 
+**Step 2.1:** Open the teminal application in the virtual machine and Navigate to the folder `PYEVOLVE_FILES` using the command `cd  ~/Desktop/PYEVOLVE_FILES`.  
 
-**Step 2.2:** Open the teminal application in the virtual machine and Navigate to the folder `PYEVOLVE_FILES` using the command `cd  ~/Desktop/PYEVOLVE_FILES`.  
-
-**Step 2.3:** Execute `ls` to view the PyEvolve executable `pyevolve-1.0-SNAPSHOT.jar` and other data.
+**Step 2.2:** Execute `ls` to view the PyEvolve executable `pyevolve-1.0-SNAPSHOT.jar` and other data.
 
 *For your convenience, we have included all the commands needed in the following steps in the file `~/Desktop/commands.txt`, so that you do not have to type the long commands.*
 
-**Step 2.4:** You can use the command `java --enable-preview -jar pyevolve-1.0-SNAPSHOT.jar` to view all the required input arguments to successfully run the tool.
+**Step 2.3:** You can use the command `java --enable-preview -jar pyevolve-1.0-SNAPSHOT.jar` to view all the required input arguments to successfully run the tool.
 Below are the arguments for your knowledge (you do not have any action to perform). 
 
 * `-p,--patterns`    This folder contains code change patterns with two types of filenames: those that begin with 'l_', and those that begin with 'r_'. These prefixes indicate the rule of a code change before and after. It is essential that the names following the prefixes are the same for the tool to correctly identify the files that belong to the same change. For example, you can check the folder `~/Desktop/PYEVOLVE_FILES/PATTERNS/` which contains patterns that we are planning to use in this evaluation.  
@@ -84,19 +82,19 @@ Below are the arguments for your knowledge (you do not have any action to perfor
 
 
 
-**Step 2.5:** To clone the project `keras` to the folder `~/Desktop/PYEVOLVE_FILES/PROJECTS/keras-team/` please execute following commands.
+**Step 2.4:** To clone the project `keras` to the folder `~/Desktop/PYEVOLVE_FILES/PROJECTS/keras-team/` please execute following commands.
 * Navigate to the `cd ~/Desktop/PYEVOLVE_FILES/PROJECTS/keras-team/` 
 * To clone `git clone https://github.com/keras-team/keras.git ./keras/`
 * To retrieve the previous snapshot, before merging the pull request, execute `git checkout f49e66c72ea5fe337c5292ee42f61cd75bc74727`.
 
-**Step 2.6:** To apply the patterns in the folder `./PATTERNS/` execute the following command. The argument descriptions are provided in the *Step 2.4*.
+**Step 2.5:** To apply the patterns in the folder `./PATTERNS/` execute the following command. The argument descriptions are provided in the *Step 2.4*.
 
 * You should first navigate to the folder `PYEVOLVE_FILES` using the command `cd ~/Desktop/PYEVOLVE_FILES/`
 * To apply patterns execute `java --enable-preview -jar pyevolve-1.0-SNAPSHOT.jar -r ./PROJECTS/ -f ./refactoring_files.txt -p ./PATTERNS/ -t ./TYPE_REPO/`
 
 The above command executes the main function of Pyevolve given in this [link](https://github.com/maldil/PyEvolve/blob/d24e28a2c95c9484f5ea5de215e359a04582d045/src/main/java/com/MainAdaptor.java#L30) and makes the code changes for the project included in the folder `~/Desktop/PYEVOLVE_FILES/PROJECTS/`.
 
-**Step 2.7:** To check the changed files, navigate to the folder `~/Desktop/PYEVOLVE_FILES/PROJECTS/keras-team/keras` execute `git diff`, scroll down to see all the changes. 
+**Step 2.6:** To check the changed files, navigate to the folder `~/Desktop/PYEVOLVE_FILES/PROJECTS/keras-team/keras` execute `git diff`, scroll down to see all the changes. 
 
 **You have successfully executed PyEvolve and transplanted patterns to the Keras project.** 
 
