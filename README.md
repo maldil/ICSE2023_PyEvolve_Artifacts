@@ -47,7 +47,7 @@ https://user-images.githubusercontent.com/20140049/213983265-3ddb4eed-ebdc-4192-
 <img width="400" alt="Screen Shot 2023-01-22 at 11 36 41 PM" src="https://user-images.githubusercontent.com/20140049/213987438-92b6e9db-c72d-4b3e-8c2a-72b0c5205921.png">
 
 If this is the case, you will need to manually run the following two commands one after the other.
-* `FSE:`
+* `FS1:`
 * `System\Library\CoreServices\boot.efi`
 
 The following video illustrates the steps described above.
