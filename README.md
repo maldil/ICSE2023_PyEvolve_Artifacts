@@ -27,7 +27,9 @@ We made two types of large datasets available.
 
 **Step 1.3:** Open VirtualBox. Click on the tools tab and then import the downloaded image file (`pyevolve.ova`) to VirtualBox, as shown below. For the image to be loaded into VirtualBox, you might need at least 30GB of free space. If not, you are likely to experience an error with the error code `NS ERROR_INVALID_ARG`.
 
-<img src="https://github.com/maldil/ICSE2023_PyEvolve_Artifacts/blob/main/Import1.png" width="400">
+<img width="400" alt="Import1" src="https://user-images.githubusercontent.com/20140049/214741823-c463c2e9-e95f-4416-b43f-65ff7734ed73.png">
+
+
 
 You will be taken to the window shown below, where the settings should appear as depicted. Click the 'Import' button, as indicated in the image. This may take a few minutes to import the image into VirtualBox.
 
