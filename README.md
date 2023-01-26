@@ -1,8 +1,16 @@
 # PYEVOLVE: Automating Frequent Code Changes in Python ML Systems
 We made all the tools and data used in the research publicly available in order to claim "Available" and "Reusable" batches. This artifact consists of the open-source versions of the tool ([PyEvolve](https://github.com/maldil/PyEvolve)) and two kinds of data sets that are used to evaluate the tool. We have readily installed tool on a VirtualBox VM image and included the evaluation subjects for the reviewer’s convenience. The git repositories of the tools contain detailed instructions for building and using the tools, allowing the public to reuse them.
 
-> Note: The VirtualBox VM image is a 19GB file. The time it takes to download this file is determined by the internet connection speed. Therefore, we would like to kindly request that reviewers begin downloading this file prior to beginning the review process. Furthermore, reviwers must have at least 30GB of free space on their computer in order to load the file into VirtualBox. 
+> Note 1: The VirtualBox VM image is a 19GB file. The time it takes to download this file is determined by the internet connection speed. Therefore, we would like to kindly request that reviewers begin downloading this file prior to beginning the review process. Furthermore, reviwers must have at least 30GB of free space on their computer in order to load the file into VirtualBox. 
 
+
+
+> Note 2:  We have generated a VirtualBox image on a Mac computer with an Intel chip. The evaluation process heavily relies on the ability to load and run the virtual machine, which may pose challenges as VirtualBox is known to have specific issues with certain operating systems. To mitigate this, we succesfully tested the image on following machines. 
+> 
+      1. Mac with Intel chip
+      2. Windows-10
+       
+>    We have encountered a known bug, which is not under our control, that prevents the loading of VirtualBox images created on Mac-Intel chips onto Mac- M1/M2 chips. This may cause issues during the evaluation. To ensure a successful evaluation of the tool, we recommend not using Mac computers with M1/M2 chips. 
 
 # About the artifact
 In Section 1, we first presented the steps to execute the tool in VirtualBox VM image which can be done in under 30 minutes. In section 2, we described our public datasets. The public may access all of these resources (tool and data) through our primary [website](https://pythoninfer.github.io) or archived repositories at [Zenodo](https://zenodo.org/record/7566407#.Y9At3C1h2cY).
