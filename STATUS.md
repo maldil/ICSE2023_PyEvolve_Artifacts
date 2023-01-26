@@ -6,5 +6,5 @@ All of the tools and data are summarized on the main website ([[https://mlcodepa
 
 Following the ICSE 2022 Open Science Policies, we have archived all tools and data in Zenodo.
 
-Tool : The Tools folder in https://zenodo.org/record/7566407#.Y9HorC1h1hF
-Data: The Data folder in https://zenodo.org/record/7566407#.Y9HorC1h1hF
+* Tool : The Tools folder in https://zenodo.org/record/7566407#.Y9HorC1h1hF
+* Data: The Data folder in https://zenodo.org/record/7566407#.Y9HorC1h1hF
