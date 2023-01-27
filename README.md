@@ -98,6 +98,7 @@ Below are the arguments for your knowledge (you do not have any action to perfor
 **Step 2.4:** To clone the project `keras` to the folder `~/Desktop/PYEVOLVE_FILES/PROJECTS/keras-team/` please execute following commands.
 * Navigate to the `cd ~/Desktop/PYEVOLVE_FILES/PROJECTS/keras-team/` 
 * To clone `git clone https://github.com/keras-team/keras.git ./keras/`
+* To navigate to the folder `keras`, execute `cd keras/`
 * To retrieve the previous snapshot, before merging the pull request, execute `git checkout f49e66c72ea5fe337c5292ee42f61cd75bc74727`.
 
 **Step 2.5:** To apply the patterns in the folder `./PATTERNS/` execute the following command. The argument descriptions are provided in the *Step 2.4*.
