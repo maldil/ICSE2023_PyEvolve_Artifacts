@@ -108,7 +108,7 @@ Below are the arguments for your knowledge (you do not have any action to perfor
 The above command executes the main function of Pyevolve given in this [link](https://github.com/maldil/PyEvolve/blob/d24e28a2c95c9484f5ea5de215e359a04582d045/src/main/java/com/MainAdaptor.java#L30) and makes the code changes for the project included in the folder `~/Desktop/PYEVOLVE_FILES/PROJECTS/`.
 
 
-**Step 2.6:** To check the changed files, navigate to the folder `~/Desktop/PYEVOLVE_FILES/PROJECTS/keras-team/keras` execute `git diff`, scroll down to see all the changes. You can see a successful transplantation of the patten given in [Section 2](https://github.com/maldil/ICSE2023_PyEvolve_Artifacts/edit/master/README.md#b-executing-pyevolve).
+**Step 2.6:** To check the changed files, navigate to the folder `~/Desktop/PYEVOLVE_FILES/PROJECTS/keras-team/keras` execute `git diff`, scroll down to see all the changes. You can observe a successful transplantation of the patten given in [Section 2](https://github.com/maldil/ICSE2023_PyEvolve_Artifacts/blob/master/README.md#b-executing-pyevolve).
 
 **You have successfully executed PyEvolve and transplanted patterns to the Keras project.** 
 
