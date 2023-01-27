@@ -1,7 +1,7 @@
 # PYEVOLVE: Automating Frequent Code Changes in Python ML Systems
-We made all the tools and data used in the research publicly available in order to claim "Available" and "Reusable" batches. This artifact consists of the open-source versions of the tool ([PyEvolve](https://github.com/maldil/PyEvolve)) and two kinds of data sets that are used to evaluate the tool. We have readily installed tool on a VirtualBox VM image and included the evaluation subjects for the reviewer’s convenience. The git repositories of the tools contain detailed instructions for building and using the tools, allowing the public to reuse them.
+We made all the tools and data used in the research publicly available in order to claim "Available" and "Reusable" batches. This artifact consists of the open-source versions of the tool ([PyEvolve](https://github.com/maldil/PyEvolve)) and two kinds of data sets that are used to evaluate the tool. We have readily installed the tool on a VirtualBox VM image and included the evaluation subjects for the reviewer’s convenience. The git repositories of the tools contain detailed instructions for building and using the tools, allowing the public to reuse them.
 
-> Note 1: The VirtualBox VM image is a 19GB file. The time it takes to download this file is determined by the internet connection speed. Therefore, we would like to kindly request that reviewers begin downloading this file prior to beginning the review process. Furthermore, reviewers must have at least 30 GB of free space on their computer in order to load the file into VirtualBox. 
+> Note 1: The VirtualBox VM image is a 19GB file. The time it takes to download this file is determined by the internet connection speed. Therefore, we would like to kindly request that reviewers begin downloading this file prior to beginning the review process. Furthermore, reviewers must have at least 40 GB of free space on their computer in order to load the file into VirtualBox. 
 
 > Note 2:  We have generated a VirtualBox image on a Mac computer with an Intel chip. The evaluation process heavily relies on the ability to load and run the virtual machine, which may pose challenges as VirtualBox is known to have specific compatibility issues with certain operating systems. To mitigate this, we recommend the reviewer have **Mac computer with an Intel chip** to run the attached image. 
 
@@ -29,7 +29,7 @@ We made two types of large datasets available.
 * [Link 2](https://o365coloradoedu-my.sharepoint.com/:f:/g/personal/mama1839_colorado_edu/EkWHc6MENFBDgYuD837me4UBM3xw9xyGTsXgUQB2zpYzbg?e=9aqbih)
 * [Link 3](https://drive.google.com/drive/folders/1HX-cD_hm_CAo2zQvSCXjBPbIleIcQhYo?usp=sharing)
 
-**Step 1.3:** Open VirtualBox. Click on the tools tab and then import the downloaded image file (`pyevolve.ova`) to VirtualBox, as shown below. For the image to be loaded into VirtualBox, you might need at least 30GB of free space. If not, you are likely to experience an error with the error code `NS ERROR_INVALID_ARG`.
+**Step 1.3:** Open VirtualBox. Click on the tools tab and then import the downloaded image file (`pyevolve.ova`) to VirtualBox, as shown below. For the image to be loaded into VirtualBox, you might need at least 40GB of free space. If not, you are likely to experience an error with the error code `NS ERROR_INVALID_ARG`.
 
 <img width="400" alt="Import1" src="https://user-images.githubusercontent.com/20140049/214741823-c463c2e9-e95f-4416-b43f-65ff7734ed73.png">
 
