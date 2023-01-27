@@ -67,7 +67,17 @@ https://user-images.githubusercontent.com/20140049/214788226-e08bc953-8d6f-4c41-
 You have successfully configured all the necessary setup for executing PyEvolve.
 
 ### b. Executing PyEvolve
-Under the evaluation, we demostrate transplantation of a patterns to the project `keras`. These changes were submited to the project `keras` and was accepted throught this pull request (https://github.com/keras-team/keras/pull/16874). 
+Under the evaluation, we demostrate transplantation of following patterns to the project `Keras`. 
+
+```
+                                     \
+:[[l1]] = open(:[[l2]], "r")      ----\    with open(:[[l2]], "r") as :[[l1]]:
+:[l4] = :[[l1]].readlines()       ----/        :[[l4]] = :[[l1]].readlines()
+:[[l1]].close()                      /
+```
+
+
+These changes were submited to the project `keras` and was accepted throught this pull request (https://github.com/keras-team/keras/pull/16874). 
 
 **Step 2.1:** Open the teminal application in the virtual machine and Navigate to the folder `PYEVOLVE_FILES` using the command `cd  ~/Desktop/PYEVOLVE_FILES`.  
 
@@ -97,7 +107,8 @@ Below are the arguments for your knowledge (you do not have any action to perfor
 
 The above command executes the main function of Pyevolve given in this [link](https://github.com/maldil/PyEvolve/blob/d24e28a2c95c9484f5ea5de215e359a04582d045/src/main/java/com/MainAdaptor.java#L30) and makes the code changes for the project included in the folder `~/Desktop/PYEVOLVE_FILES/PROJECTS/`.
 
-**Step 2.6:** To check the changed files, navigate to the folder `~/Desktop/PYEVOLVE_FILES/PROJECTS/keras-team/keras` execute `git diff`, scroll down to see all the changes. 
+
+**Step 2.6:** To check the changed files, navigate to the folder `~/Desktop/PYEVOLVE_FILES/PROJECTS/keras-team/keras` execute `git diff`, scroll down to see all the changes. You can see a successful transplantation of the patten given in [Section 2](https://github.com/maldil/ICSE2023_PyEvolve_Artifacts/edit/master/README.md#b-executing-pyevolve).
 
 **You have successfully executed PyEvolve and transplanted patterns to the Keras project.** 
 
