@@ -67,7 +67,7 @@ https://user-images.githubusercontent.com/20140049/214788226-e08bc953-8d6f-4c41-
 You have successfully configured all the necessary setup for executing PyEvolve.
 
 ### b. Executing PyEvolve
-Under the evaluation, we demostrate transplantation of following patterns to the project `Keras`. 
+Under the evaluation, we demostrate transplantation of following patterns to the project `Keras`. Please refer the [technical paper](https://danny.cs.colorado.edu/papers/PyEvolve_ICSE2023.pdf) for the further information of the pattern. 
 
 ```
                                      \
