@@ -69,7 +69,7 @@ You have successfully configured all the necessary setup for executing PyEvolve.
 ### b. Executing PyEvolve
 Under the evaluation, we demostrate transplantation of following patterns to the project `Keras`. Please refer the [technical paper](https://danny.cs.colorado.edu/papers/PyEvolve_ICSE2023.pdf) for the further information of the pattern. 
 
-```
+```python
                                      \
 :[[l1]] = open(:[[l2]], "r")      ----\    with open(:[[l2]], "r") as :[[l1]]:
 :[l4] = :[[l1]].readlines()       ----/        :[[l4]] = :[[l1]].readlines()
