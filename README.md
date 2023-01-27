@@ -27,7 +27,7 @@ We made two types of large datasets available.
 **Step 1.2:** We offer a VM image with all the tools and data pre-installed. The image (named `pyevolve.ova`) can be downloaded from the links provided below. The image file is 19GB in size and may take some time to download depending on your internet connection speed. We have provided a few links below in case the first one does not work. You can get the image by clicking on one of the links provided below.
 * [Link 1](https://drive.google.com/drive/folders/1X3zqSKwOnVuLm-qeAELszcEw6gYb9flX?usp=sharing)
 * [Link 2](https://o365coloradoedu-my.sharepoint.com/:f:/g/personal/mama1839_colorado_edu/EkWHc6MENFBDgYuD837me4UBM3xw9xyGTsXgUQB2zpYzbg?e=9aqbih)
-* [Link 3](https://drive.google.com/drive/folders/1HX-cD_hm_CAo2zQvSCXjBPbIleIcQhYo?usp=sharing)
+
 
 **Step 1.3:** Open VirtualBox. Click on the tools tab and then import the downloaded image file (`pyevolve.ova`) to VirtualBox, as shown below. For the image to be loaded into VirtualBox, you might need at least 40GB of free space. If not, you are likely to experience an error with the error code `NS ERROR_INVALID_ARG`.
 
