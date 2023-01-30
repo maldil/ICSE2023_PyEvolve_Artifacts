@@ -54,7 +54,7 @@ If this is the case, you will need to manually run the following two commands on
 * `FS1:`
 * `System\Library\CoreServices\boot.efi`
 
-The following video illustrates the steps described above.
+The following video illustrates the steps described above (check **Step 1.7:** for login password).
 
 
 https://user-images.githubusercontent.com/20140049/214788226-e08bc953-8d6f-4c41-976a-648cf12e8969.mov
