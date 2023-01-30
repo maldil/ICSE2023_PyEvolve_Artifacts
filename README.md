@@ -85,7 +85,7 @@ These changes were submited to the project `keras` and was accepted throught thi
 
 *For your convenience, we have included all the commands needed in the following steps in the file `~/Desktop/commands.txt`, so that you do not have to type the long commands.*
 
-**Step 2.3:** You can use the command `java --enable-preview -jar pyevolve-1.0-SNAPSHOT.jar` to view all the required input arguments to successfully run the tool.
+**Step 2.3:** You can use the command `java --enable-preview -jar pyevolve-1.0-SNAPSHOT.jar` to view all the required input arguments to successfully run the tool (your working directory must be `~/Desktop/PYEVOLVE_FILES`).
 Below are the arguments for your knowledge (you do not have any action to perform). 
 
 * `-p,--patterns`    This folder contains code change patterns with two types of filenames: those that begin with 'l_', and those that begin with 'r_'. These prefixes indicate the rule of a code change before and after. It is essential that the names following the prefixes are the same for the tool to correctly identify the files that belong to the same change. For example, you can check the folder `~/Desktop/PYEVOLVE_FILES/PATTERNS/` which contains patterns that we are planning to use in this evaluation.  
@@ -101,7 +101,7 @@ Below are the arguments for your knowledge (you do not have any action to perfor
 * To navigate to the folder `keras`, execute `cd keras/`
 * To retrieve the previous snapshot, before merging the pull request, execute `git checkout f49e66c72ea5fe337c5292ee42f61cd75bc74727`.
 
-**Step 2.5:** To apply the patterns in the folder `./PATTERNS/` execute the following command. The argument descriptions are provided in the *Step 2.4*.
+**Step 2.5:** To apply the patterns in the folder `./PATTERNS/` execute the following command. The argument descriptions are provided in the *Step 2.4* (your working directory must be `~/Desktop/PYEVOLVE_FILES`).
 
 * You should first navigate to the folder `PYEVOLVE_FILES` using the command `cd ~/Desktop/PYEVOLVE_FILES/`
 * To apply patterns execute `java --enable-preview -jar pyevolve-1.0-SNAPSHOT.jar -r ./PROJECTS/ -f ./refactoring_files.txt -p ./PATTERNS/ -t ./TYPE_REPO/`
