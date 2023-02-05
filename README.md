@@ -6,7 +6,7 @@ We made all the tools and data used in the research publicly available in order 
 > Note 2:  We have generated a VirtualBox image on a Mac computer with an Intel chip. The evaluation process heavily relies on the ability to load and run the virtual machine, which may pose challenges as VirtualBox is known to have specific compatibility issues with certain operating systems. To mitigate this, we recommend the reviewer have **Mac computer with an Intel chip** to run the attached image. 
 
 
-> Note 4: We tested the compatibility of the VM image and evaluation instructions on a different machine (Mac-Intel chip), not the one used for creating the image, in order to ensure that all steps will run without interruption. 
+> Note 3: We tested the compatibility of the VM image and evaluation instructions on a different machine (Mac-Intel chip), not the one used for creating the image, in order to ensure that all steps will run without interruption. 
 
 # About the artifact
 In Section 1, we first presented the steps to execute the tool in VirtualBox VM image which can be done in under 30 minutes. In section 2, we described our public datasets. The public may access all of these resources (tool and data) through our primary [website](https://pythoninfer.github.io) or archived repositories at [Zenodo](https://zenodo.org/record/7566407#.Y9At3C1h2cY).
